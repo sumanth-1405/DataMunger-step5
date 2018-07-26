@@ -563,7 +563,7 @@ public class DataMungerTest {
 
 			recordscounter++;
 		}
-
+		System.out.println(recordscounter);
 		if (counter > 2) {
 			dataexpectedstatus = true;
 		}
@@ -763,6 +763,7 @@ public class DataMungerTest {
 
 			recordscounter++;
 		}
+		System.out.println(recordscounter);
 		if (counter > 2) {
 			dataexpectedstatus = true;
 		}

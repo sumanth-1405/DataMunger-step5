@@ -9,5 +9,20 @@ public class RowDataTypeDefinitions extends HashMap<Integer, String>{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	private HashMap<Integer,String> rowDataType = new HashMap<Integer,String>();
+	
+	public RowDataTypeDefinitions(HashMap<Integer,String> rowDataType) {
+		this.rowDataType=rowDataType;
+	}
+	
+	public HashMap<Integer,String> getRowDataType(){
+		return rowDataType;
+	}
+	
+	public void setRowDataType(HashMap<Integer,String> rowDataType){
+		this.rowDataType=rowDataType;
+	}
+	
+	
 	
 }
