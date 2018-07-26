@@ -24,7 +24,6 @@ public class JsonWriter {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		@SuppressWarnings("unused")
 		String result = gson.toJson(resultSet);
-		System.out.println(result);
 		/*
 		 * write JSON string to data/result.json file. As we are performing File IO,
 		 * consider handling exception

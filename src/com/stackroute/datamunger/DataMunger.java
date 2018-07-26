@@ -19,10 +19,10 @@ public class DataMunger {
 
 		
 		// Read the query from the user
-//		System.out.println("Enter query: ");
-//		Scanner scanner = new Scanner(System.in);
-//		String queryString = scanner.nextLine();
-//		scanner.close();
+		System.out.println("Enter query: ");
+		Scanner scanner = new Scanner(System.in);
+		String queryString = scanner.nextLine();
+		scanner.close();
 		
 		/*
 		 * Instantiate Query class. This class is responsible for: 1. Parsing the query
